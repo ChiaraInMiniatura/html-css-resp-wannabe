@@ -1,6 +1,10 @@
 
 @media screen and (max-width: 419px){
-
+  *{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
   .row{
     display: flex;
     flex-direction: column;
@@ -9,7 +13,12 @@
     margin-top: 0;
     text-align: center;
   }
-
+  #lezioni h1,
+  #steps h1,
+  #why h1{
+    margin:15px 0 15px 0;
+  }
+  
   /* sezione lezioni */
   #lezioni{
     background-color: rgb(242, 242, 205);
@@ -47,8 +56,8 @@
 }
   #why .row img{
     width: 30%;
-    height: 30%;
-    padding: 20px;
+    height: 45%;
+    padding: 10px;
   }
 
 } 
